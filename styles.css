@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
+    ),
+    url("pexels-jplenio-1118873.jpg");
+  background-size: cover;
+  background-color: black;
+  background-repeat: no-repeat;
+  color: aliceblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 992px) {
+  #weather--info-div {
+    width: 70%;
+  }
+  #form--place {
+    width: 30%;
+  }
+}
+
+#weather--info-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 60%;
+}
+#form--place {
+  padding-top: 100px;
+  width: 40%;
+}
+
+#search--form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#search--input {
+  outline: none;
+  padding-inline: 50px;
+  padding-block: 5px;
+  border-radius: 10px;
+  background-color: aliceblue;
+  border-color: aliceblue;
+  font-size: larger;
+}
+
+#search-btn {
+  padding-inline: 50px;
+  padding-block: 5px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  background-color: beige;
+  border-color: beige;
+}
+
+.links {
+  color: beige;
+  font-style: italic;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid white;
+}
+
+.heading--text {
+  color: beige;
+  font-style: italic;
+  margin-right: 1000px;
+}
+
+.footer--links {
+  color: beige;
+  font-style: italic;
+  list-style: none;
+  display: flex;
+  gap: 10px;
+  border-bottom: 1px solid white;
+  margin-top: 420px;
+  margin-bottom: 50px;
+}
